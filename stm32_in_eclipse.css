@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body
+{
+  font-family: 'Libre Baskerville', serif;
+  background-color: #b4b4b4;
+}
+
+header
+{
+  background-color: DodgerBlue;
+}
+
+#nav_block
+{
+  border-radius: 5px;
+  background-color: DodgerBlue;
+  border-style: solid;
+  border-color: #b4b4b4;
+  color: white;
+  padding: 5px;
+  width: 300px;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'left left middle middle right right'
+  'footer footer footer footer footer footer';
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+}
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+}
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  padding: 10px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>STM32 in Eclipse</title>
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Libre+Baskerville">
+  <link rel="stylesheet"
+  href="stm32_in_eclipse.css">
+</head>
+<body>
+  <div class="flex-container">
+    <div>  <header>
+      <h1> STM32 in Eclipse. </h1>
+    </header>
+  </div>
+</div>
+  <div class="grid-container">
+    <div class="left">
+        <a href="#"><div id="nav_block">Necessary software.</div></a>
+        <a href="#"><div id="nav_block">Create minimal project.</div></a>
+        <a href="#"><div id="nav_block">Configuring eclipse.</div></a>
+    </div>
+    <div class="middle">Necessary software.</div>
+    <div class="right">Column</div>
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+  </div>
+
+  <h2> Some used commands: </h2>
+  <pre>[oleg@oleg-pc ~]$ which arm-none-eabi-gdb
+    /usr/bin/arm-none-eabi-gdb
+       [oleg@oleg-pc ~]$
+  </pre>
+  <br/>
+  <pre>[oleg@oleg-pc ~]$ whereis openocd
+openocd: /usr/local/bin/openocd
+       [oleg@oleg-pc ~]$ </pre>
+  <pre>[oleg@oleg-pc ~]$ openocd -f ~/openocd/code/tcl/board/st_nucleo_f7.cfg</pre>
+  <pre>[oleg@oleg-pc ~]$ telnet localhost 4444</pre>
+  <pre>st-flash write ./build/STM32.bin 0x8000000</pre>
+  <pre>gdb -f ./build/STM32.elf</pre>
+  <img src="/uploads/posts/2017-12/1513355623_2.jpg" alt="Первый скриншот" title="Первый скриншот">
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
