@@ -13,15 +13,47 @@ header
   background-color: DodgerBlue;
 }
 
+a
+{
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
 #nav_block
 {
-  border-radius: 5px;
-  background-color: DodgerBlue;
-  border-style: solid;
-  border-color: #b4b4b4;
-  color: white;
   padding: 5px;
-  width: 300px;
+  display: block;
+  background: DodgerBlue;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  border-style: solid;
+  border-color: #000000;
+}
+
+#nav
+{
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  padding: 5px;
+  width: 315px;
+  text-align: center;
+}
+
+#paragraph
+{
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  padding: 5px;
+  width: 600px;
+  text-align: left;
+}
+
+#socialLinks
+{
 }
 
 /* The grid container */
@@ -32,6 +64,17 @@ header
   'left left middle middle right right'
   'footer footer footer footer footer footer';
   /* grid-column-gap: 10px; - if you want gap between the columns */
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas:
+    'header header header header header header'
+    'left left left left left left'
+    'middle middle middle middle middle middle'
+    'right right right right right right'
+    'footer footer footer footer footer footer';
 }
 
 .left,
