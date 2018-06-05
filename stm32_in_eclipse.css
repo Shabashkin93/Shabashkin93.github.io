@@ -21,7 +21,20 @@ nav
 {
   font-family: 'Libre Baskerville', serif;
 }
+.card
+{
+  padding: 1px;
+}
+.card-header
+{
+  border-radius:10px;
+  border-style:solid;
+  border-color:#fefefe;
+}
 
+.col{
+  padding: 5px;
+}
 #nav_block
 {
   padding: 5px;

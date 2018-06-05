@@ -36,7 +36,7 @@ crossorigin="anonymous">
     </header>
   </div>
 <div class="container">
-  <div class="row">
+  <div class="row-auto">
     <div class="col">
       <div id="nav">
         <a href="#"><div id="nav_block">Necessary software.</div></a>
@@ -49,7 +49,36 @@ crossorigin="anonymous">
       </div>
     </div>
     <div class="col">
-      <div id="paragraph">Necessary software.</div>
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-header">Install the required software.</h2>
+          <p class="card-text">You must install the following package:<br></p>
+            <ul>
+              <li>STM32CubeMX</li>
+              <li>Eclipse-cpp</li>
+              <li>Openocd</li>
+              <li>Gdb</li>
+              <li>Stlink</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-header">Create and setting a simple project in STM32CubeMX</h2>
+          <p class="card-text"><br>Select the chip you are using:<br></p>
+          <img src="pictures/STM32CubeMX_ChoseChip.png" alt="STM32CubeMX_ChoseChip" class="img-thumbnail">
+          <p class="card-text"><br>In the "Pinout->SYS-> Debug" select "Serial Wire":<br></p>
+          <img src="pictures/STM32CubeMX_Enable_Debug.png" alt="STM32CubeMX_Enable_Debug" class="img-thumbnail">
+          <p class="card-text"><br>In the "Clock Configuration" set HCLK:<br></p>
+          <img src="pictures/STM32CubeMX_Clock.png" alt="STM32CubeMX_Clock" class="img-thumbnail">
+          <p class="card-text"><br>Open "Project->Project Settings", or use hotkey "Alt+P".<br>
+          Set "Project Name" and "Project Location, select "Makefile" as "Toolchain/IDE".<br>
+        Press "OK". </p>
+          <img src="pictures/STM32CubeMX_ProjectSetting.png" alt="STM32CubeMX_STM32CubeMX_ProjectSetting" class="img-thumbnail">
+        </div>
+      </div>
     </div>
   </div>
 </div>
