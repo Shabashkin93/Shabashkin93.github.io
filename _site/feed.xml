@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Oleg Shabashkin</title>
+		<description>My notes so as not to forget the useful development.</description>
+		<link>/</link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>STM32 in Eclipse</title>
+				<description>&lt;h2 id=&quot;install-the-required-software&quot;&gt;Install the required software.&lt;/h2&gt;
+
+&lt;p&gt;You must install the following package:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;STM32CubeMX&lt;/li&gt;
+  &lt;li&gt;Eclipse-cpp&lt;/li&gt;
+  &lt;li&gt;Openocd&lt;/li&gt;
+  &lt;li&gt;Gdb&lt;/li&gt;
+  &lt;li&gt;Stlink&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;create-and-setting-a-simple-project-in-stm32cubemx&quot;&gt;Create and setting a simple project in STM32CubeMX.&lt;/h2&gt;
+
+&lt;p&gt;Select the chip you are using:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/STM32CubeMX_ChoseChip.png&quot; alt=&quot;STM32CubeMX_ChoseChip&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the “Pinout-&amp;gt;SYS-&amp;gt; Debug” select “Serial Wire”:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/STM32CubeMX_Enable_Debug.png&quot; alt=&quot;STM32CubeMX_Enable_Debug&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the “Clock Configuration” set HCLK:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/STM32CubeMX_Clock.png&quot; alt=&quot;STM32CubeMX_Clock&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Open “Project-&amp;gt;Project Settings”, or use hotkey “Alt+P”.
+Set “Project Name” and “Project Location, select “Makefile” as “Toolchain/IDE”.
+Press “OK”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/STM32CubeMX_ProjectSetting.png&quot; alt=&quot;STM32CubeMX_STM32CubeMX_ProjectSetting&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Press “Ctrl+Shift+G” for generate source code.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;import-project-in-eclipse&quot;&gt;Import project in eclipse.&lt;/h2&gt;
+
+&lt;p&gt;Select “File/New/Makefile Project with Existing Code”.&lt;/p&gt;
+
+&lt;p&gt;Write “Project Name” and “Existing Code Location”.
+Languages “C”.
+Toolchain for indexer Settings “none”.
+Press “Finish”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_Create_Project.png&quot; alt=&quot;Eclipse_Create_Project&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;preparing-eclipse-for-work&quot;&gt;Preparing Eclipse for work.&lt;/h2&gt;
+
+&lt;p&gt;Select “Help-&amp;gt;Eclipse Marketplace-&amp;gt;Search-&amp;gt;Find”
+Find and install “GNU MCU Eclipse”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_Marketplace.png&quot; alt=&quot;Eclipse_Marketplace&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Select “Run-&amp;gt;External Tools-&amp;gt;External Tools Configuration…
+Select “New launch configuration”
+Create configuration for run openocd, “Openocd” is better to take with “github”
+For find locations use command “which”&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[oleg@oleg-pc ~]$ which openocd
+            /usr/local/bin/openocd
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_0.png&quot; alt=&quot;Eclipse_ExternalTools_openocd_0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_1.png&quot; alt=&quot;Eclipse_ExternalTools_openocd_1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_2.png&quot; alt=&quot;Eclipse_ExternalTools_openocd_2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_3.png&quot; alt=&quot;Eclipse_ExternalTools_openocd_3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_4.png&quot; alt=&quot;Eclipse_ExternalTools_openocd_4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Create configuration for run “st-linkv2 erase”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_ExternalTools_st-link_erase_0.png&quot; alt=&quot;Eclipse_ExternalTools_st-link_erase_0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Leave the remaining parameters as default.
+Create configuration for run “st-linkv2 write”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_ExternalTools_st-link_write_0.png&quot; alt=&quot;Eclipse_ExternalTools_st-link_write_0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Leave the remaining parameters as default.
+Select “Run-&amp;gt;Debug Configurations…”
+Select “GDB Hardware Debugging”, select “New launch configuration”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_0.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_0&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_1.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_2.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_3.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_4.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_4&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;run-debugging-on-the-hardware&quot;&gt;Run debugging on the hardware.&lt;/h2&gt;
+
+&lt;p&gt;Select “Run-&amp;gt;External Tools-&amp;gt;openocd”.
+Select “Run-&amp;gt; Debug Configurations…-&amp;gt; GDB Hardware Debugging”.
+Select the previously created configuration.
+Select “Debug”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;Eclipse_Run_Debugging&quot; /&gt;&lt;/p&gt;
+
+</description>
+				<pubDate>Mon, 18 Jun 2018 00:00:00 +0500</pubDate>
+				<link>/general/stm32/2018/06/18/STM32-in-Eclipse.html</link>
+				<guid isPermaLink="true">/general/stm32/2018/06/18/STM32-in-Eclipse.html</guid>
+			</item>
+		
+	</channel>
+</rss>
