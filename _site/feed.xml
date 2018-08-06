@@ -25,21 +25,21 @@
 
 &lt;p&gt;Select the chip you are using:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/STM32CubeMX_ChoseChip.png&quot; alt=&quot;STM32CubeMX_ChoseChip&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/STM32CubeMX_ChoseChip.png&quot; alt=&quot;STM32CubeMX_ChoseChip&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the “Pinout-&amp;gt;SYS-&amp;gt; Debug” select “Serial Wire”:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/STM32CubeMX_Enable_Debug.png&quot; alt=&quot;STM32CubeMX_Enable_Debug&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/STM32CubeMX_Enable_Debug.png&quot; alt=&quot;STM32CubeMX_Enable_Debug&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the “Clock Configuration” set HCLK:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/STM32CubeMX_Clock.png&quot; alt=&quot;STM32CubeMX_Clock&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/STM32CubeMX_Clock.png&quot; alt=&quot;STM32CubeMX_Clock&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Open “Project-&amp;gt;Project Settings”, or use hotkey “Alt+P”.
 Set “Project Name” and “Project Location, select “Makefile” as “Toolchain/IDE”.
 Press “OK”.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/STM32CubeMX_ProjectSetting.png&quot; alt=&quot;STM32CubeMX_STM32CubeMX_ProjectSetting&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/STM32CubeMX_ProjectSetting.png&quot; alt=&quot;STM32CubeMX_STM32CubeMX_ProjectSetting&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Press “Ctrl+Shift+G” for generate source code.&lt;/p&gt;
 
@@ -54,7 +54,7 @@ Languages “C”.
 Toolchain for indexer Settings “none”.
 Press “Finish”.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_Create_Project.png&quot; alt=&quot;Eclipse_Create_Project&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_Create_Project.png&quot; alt=&quot;Eclipse_Create_Project&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -63,7 +63,7 @@ Press “Finish”.&lt;/p&gt;
 &lt;p&gt;Select “Help-&amp;gt;Eclipse Marketplace-&amp;gt;Search-&amp;gt;Find”
 Find and install “GNU MCU Eclipse”&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_Marketplace.png&quot; alt=&quot;Eclipse_Marketplace&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_Marketplace.png&quot; alt=&quot;Eclipse_Marketplace&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Select “Run-&amp;gt;External Tools-&amp;gt;External Tools Configuration…
 Select “New launch configuration”
@@ -74,38 +74,38 @@ For find locations use command “which”&lt;/p&gt;
             /usr/local/bin/openocd
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_0.png&quot; alt=&quot;Eclipse_ExternalTools_openocd_0&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_0.png&quot; alt=&quot;Eclipse_ExternalTools_openocd_0&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_1.png&quot; alt=&quot;Eclipse_ExternalTools_openocd_1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_1.png&quot; alt=&quot;Eclipse_ExternalTools_openocd_1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_2.png&quot; alt=&quot;Eclipse_ExternalTools_openocd_2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_2.png&quot; alt=&quot;Eclipse_ExternalTools_openocd_2&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_3.png&quot; alt=&quot;Eclipse_ExternalTools_openocd_3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_3.png&quot; alt=&quot;Eclipse_ExternalTools_openocd_3&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_4.png&quot; alt=&quot;Eclipse_ExternalTools_openocd_4&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_4.png&quot; alt=&quot;Eclipse_ExternalTools_openocd_4&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Create configuration for run “st-linkv2 erase”&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_ExternalTools_st-link_erase_0.png&quot; alt=&quot;Eclipse_ExternalTools_st-link_erase_0&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_st-link_erase_0.png&quot; alt=&quot;Eclipse_ExternalTools_st-link_erase_0&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Leave the remaining parameters as default.
 Create configuration for run “st-linkv2 write”&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_ExternalTools_st-link_write_0.png&quot; alt=&quot;Eclipse_ExternalTools_st-link_write_0&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_st-link_write_0.png&quot; alt=&quot;Eclipse_ExternalTools_st-link_write_0&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Leave the remaining parameters as default.
 Select “Run-&amp;gt;Debug Configurations…”
 Select “GDB Hardware Debugging”, select “New launch configuration”&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_0.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_0&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_0.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_0&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_1.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_1.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_1&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_2.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_2.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_2&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_3.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_3&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_3.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_3&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://127.0.0.1:4000//pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_4.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_4&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_4.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_4&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;run-debugging-on-the-hardware&quot;&gt;Run debugging on the hardware.&lt;/h2&gt;
 
@@ -114,7 +114,7 @@ Select “Run-&amp;gt; Debug Configurations…-&amp;gt; GDB Hardware Debugging�
 Select the previously created configuration.
 Select “Debug”.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;Eclipse_Run_Debugging&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_Run_Debugging.png&quot; alt=&quot;Eclipse_Run_Debugging&quot; /&gt;&lt;/p&gt;
 
 </description>
 				<pubDate>Mon, 18 Jun 2018 00:00:00 +0500</pubDate>

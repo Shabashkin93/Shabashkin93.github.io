@@ -110,7 +110,7 @@ Select "Run-> Debug Configurations...-> GDB Hardware Debugging".
 Select the previously created configuration.
 Select "Debug".
 
-![Eclipse_Run_Debugging]()
+![Eclipse_Run_Debugging]({{ site.url }}/pictures/STM32-in-Eclipse/Eclipse_Run_Debugging.png)
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
