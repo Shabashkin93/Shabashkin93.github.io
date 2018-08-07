@@ -17,6 +17,7 @@
 	   {{ page.date | date: "%Y" }}
 	 </span>
 	  <div class="article_body">
+      {% include nav-breadcrumbs.html %}
 	  {{ content }}
 		  <div id="disqus_thread"></div>
 	  </div>
