@@ -32,8 +32,8 @@ In the "Clock Configuration" set HCLK:
 
 ![STM32CubeMX_Clock]({{ site.url }}/pictures/STM32-in-Eclipse/STM32CubeMX_Clock.png) 
 
-Open "Project->Project Settings", or use hotkey "Alt+P".
-Set "Project Name" and "Project Location, select "Makefile" as "Toolchain/IDE".
+Open "Project->Project Settings", or use hotkey "Alt+P".  
+Set "Project Name" and "Project Location, select "Makefile" as "Toolchain/IDE".  
 Press "OK".
 
 ![STM32CubeMX_STM32CubeMX_ProjectSetting]({{ site.url }}/pictures/STM32-in-Eclipse/STM32CubeMX_ProjectSetting.png) 
@@ -46,9 +46,9 @@ Press "Ctrl+Shift+G" for generate source code.
 
 Select "File/New/Makefile Project with Existing Code".
 
-Write "Project Name" and "Existing Code Location".
-Languages "C".
-Toolchain for indexer Settings "none".
+Write "Project Name" and "Existing Code Location".  
+Languages "C".  
+Toolchain for indexer Settings "none".  
 Press "Finish".
 
 ![Eclipse_Create_Project]({{ site.url }}/pictures/STM32-in-Eclipse/Eclipse_Create_Project.png) 
@@ -62,9 +62,9 @@ Find and install "GNU MCU Eclipse"
 
 ![Eclipse_Marketplace]({{ site.url }}/pictures/STM32-in-Eclipse/Eclipse_Marketplace.png) 
 
-Select "Run->External Tools->External Tools Configuration...
-Select "New launch configuration"
-Create configuration for run openocd, "Openocd" is better to take with "github"
+Select "Run->External Tools->External Tools Configuration...  
+Select "New launch configuration"  
+Create configuration for run openocd, "Openocd" is better to take with "github"  
 For find locations use command "which"
 
 	[oleg@oleg-pc ~]$ which openocd
@@ -84,14 +84,14 @@ Create configuration for run "st-linkv2 erase"
 
 ![Eclipse_ExternalTools_st-link_erase_0]({{ site.url }}/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_st-link_erase_0.png)
 
-Leave the remaining parameters as default.
+Leave the remaining parameters as default.  
 Create configuration for run "st-linkv2 write"
 
 ![Eclipse_ExternalTools_st-link_write_0]({{ site.url }}/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_st-link_write_0.png)
 
-Leave the remaining parameters as default.
-Select "Run->Debug Configurations..."
-Select "GDB Hardware Debugging", select "New launch configuration"
+Leave the remaining parameters as default.  
+Select "Run->Debug Configurations..."  
+Select "GDB Hardware Debugging", select "New launch configuration" 
 
 ![pictures/Eclipse_DebugConfigurations_GDB_0]({{ site.url }}/pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_0.png)
 
@@ -105,10 +105,10 @@ Select "GDB Hardware Debugging", select "New launch configuration"
 
 ## Run debugging on the hardware.
 
-Select "Run->External Tools->openocd".
-Select "Run-> Debug Configurations...-> GDB Hardware Debugging".
-Select the previously created configuration.
-Select "Debug".
+Select "Run->External Tools->openocd".  
+Select "Run-> Debug Configurations...-> GDB Hardware Debugging".  
+Select the previously created configuration.  
+Select "Debug".  
 
 ![Eclipse_Run_Debugging]({{ site.url }}/pictures/STM32-in-Eclipse/Eclipse_Run_Debugging.png)
 

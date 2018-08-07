@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>STM32 in Eclipse</title>
+	<title>Resume</title>
 	
-	<meta name="description" content="STM32 in Eclipse.">
+	<meta name="description" content="My resume.">
 	
 	<meta name="author" content="Shabashkin Oleg">
 
@@ -143,7 +143,7 @@
 
 	<div class="col-sm-9 col-sm-offset-3">
 		<div class="page-header">
-  <h1>STM32 in Eclipse </h1>
+  <h1>Resume </h1>
 </div>
 	
 <article>
@@ -151,120 +151,68 @@
 	<div class="col-sm-10">
 	 <span class="post-date">
 	   
-	   June 
-	   18th,
+	   August 
+	   8th,
 	   
 	   2018
 	 </span>
 	  <div class="article_body">
-	  <h2 id="install-the-required-software">Install the required software.</h2>
+	  <h2 id="общие-данные">Общие данные:</h2>
+<p>ФИО: Шабашкин Олег Андреевич.<br />
+Прописка: Свердловская обл., г. Екатеринбург.<br />
+E-mail: Parkour23@protonmail.com<br />
+Github: https://github.com/Shabashkin93<br />
+Tel: 89022536374.<br />
+Дата рождения: 19 Сентября 1993 г.<br />
+Гражданство: Гражданин Российской Федерации.<br />
+Семейное положение: не женат.<br />
+Специальность: радиотехника.<br />
+По образованию : Бакалавр техники и технологии.<br />
+Образование: Высшее.<br />
+2010-2014 Уральский Технический Институт Связи и Информатики (филиал) Сибирский Государственный Университет Телекоммуникаций и Информатики<br />
+Факультет телекоммуникации<br />
+Специальность «Радиотехника»<br />
+Квалификация: Бакалавр радиотехники и технологии.<br />
+Проходил практику на производственном предприятии «Вектор»<br />
+2000-2010 МОУСОШ №21 окончил 11 классов.</p>
 
-<p>You must install the following package:</p>
-<ul>
-  <li>STM32CubeMX</li>
-  <li>Eclipse-cpp</li>
-  <li>Openocd</li>
-  <li>Gdb</li>
-  <li>Stlink</li>
-</ul>
+<h2 id="опыт-работы">Опыт работы:</h2>
 
-<hr />
+<p>1.07.2013-22.07.2013  «Вектор»<br />
+Должность: регулировщик радиоэлектронной аппаратуры и приборов (ученик).<br />
+Обязанности: регулировка радиоэлектронной аппаратуры и приборов.</p>
 
-<h2 id="create-and-setting-a-simple-project-in-stm32cubemx">Create and setting a simple project in STM32CubeMX.</h2>
+<p>февраль 2014 - август 2015: «Каскад СБ»<br />
+Должность:  монтажник ОПС и СКУД.<br />
+Обязанности: монтаж и пуско-наладка слаботочных систем.<br />
+Опыт работы с системами «Орион», «Рубеж».</p>
 
-<p>Select the chip you are using:</p>
+<p>19.09.2015 — 31.01.2016 :  «ВИС Автоматика».<br />
+Должность : монтажник ОПС и СКУД.<br />
+Обязанности : монтаж и пуско-наладка слаботочных систем.</p>
 
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/STM32CubeMX_ChoseChip.png" alt="STM32CubeMX_ChoseChip" /></p>
+<p>01.02.2016-29.12.2016: ООО «Миландр ЭК».<br />
+Должность: Слесарь КИПиА.<br />
+Обязанности: Калибровка и поверка приборов учёта электроэнергии.</p>
 
-<p>In the “Pinout-&gt;SYS-&gt; Debug” select “Serial Wire”:</p>
+<p>30.12.2016-31.10.2017: АО «ПКК Миландр».<br />
+Должность: Регулировщик РЭАиП.<br />
+Обязанности: Ремонт приборов учёта электроэнергии, обновление софта на ПК сотрудников и приборах используемых на производстве, тестирование производственного ПО и обратная связь разработчикам.</p>
 
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/STM32CubeMX_Enable_Debug.png" alt="STM32CubeMX_Enable_Debug" /></p>
+<p>01.11.2017 по настоящее время: АО «ПКК Миландр».<br />
+Должность: Инженер-технолог.<br />
+Обязанности: Ремонт приборов учёта электроэнергии, обновление софта на ПК сотрудников и приборах используемых на производстве, тестирование производственного ПО и обратная связь разработчикам, экспертиза приборов вышедших из строя, техобслуживание всех электроустановок и приборов используемых на производстве.</p>
+<h2 id="навыки">Навыки</h2>
 
-<p>In the “Clock Configuration” set HCLK:</p>
+<p>Языки: Английский технический на начальном уровне, немецкий на уровне школьного курса.</p>
 
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/STM32CubeMX_Clock.png" alt="STM32CubeMX_Clock" /></p>
+<p>Работал с программами помимо офисных: Autocad, Altium Designer, Electronic Workbench, MATLAB, MathCAD, Multisim, Proteus, STM32CubeMX, QT Creator. Языки программирования : C, C++, Python, поверхностно web.</p>
 
-<p>Open “Project-&gt;Project Settings”, or use hotkey “Alt+P”.<br />
-Set “Project Name” and “Project Location, select “Makefile” as “Toolchain/IDE”.<br />
-Press “OK”.</p>
+<p>Используемые OS : Linux, Windows.</p>
 
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/STM32CubeMX_ProjectSetting.png" alt="STM32CubeMX_STM32CubeMX_ProjectSetting" /></p>
+<p>Знаком с git, jira.</p>
 
-<p>Press “Ctrl+Shift+G” for generate source code.</p>
-
-<hr />
-
-<h2 id="import-project-in-eclipse">Import project in eclipse.</h2>
-
-<p>Select “File/New/Makefile Project with Existing Code”.</p>
-
-<p>Write “Project Name” and “Existing Code Location”.<br />
-Languages “C”.<br />
-Toolchain for indexer Settings “none”.<br />
-Press “Finish”.</p>
-
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_Create_Project.png" alt="Eclipse_Create_Project" /></p>
-
-<hr />
-
-<h2 id="preparing-eclipse-for-work">Preparing Eclipse for work.</h2>
-
-<p>Select “Help-&gt;Eclipse Marketplace-&gt;Search-&gt;Find”
-Find and install “GNU MCU Eclipse”</p>
-
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_Marketplace.png" alt="Eclipse_Marketplace" /></p>
-
-<p>Select “Run-&gt;External Tools-&gt;External Tools Configuration…<br />
-Select “New launch configuration”<br />
-Create configuration for run openocd, “Openocd” is better to take with “github”<br />
-For find locations use command “which”</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[oleg@oleg-pc ~]$ which openocd
-            /usr/local/bin/openocd
-</code></pre></div></div>
-
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_0.png" alt="Eclipse_ExternalTools_openocd_0" /></p>
-
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_1.png" alt="Eclipse_ExternalTools_openocd_1" /></p>
-
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_2.png" alt="Eclipse_ExternalTools_openocd_2" /></p>
-
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_3.png" alt="Eclipse_ExternalTools_openocd_3" /></p>
-
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_openocd_4.png" alt="Eclipse_ExternalTools_openocd_4" /></p>
-
-<p>Create configuration for run “st-linkv2 erase”</p>
-
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_st-link_erase_0.png" alt="Eclipse_ExternalTools_st-link_erase_0" /></p>
-
-<p>Leave the remaining parameters as default.<br />
-Create configuration for run “st-linkv2 write”</p>
-
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_st-link_write_0.png" alt="Eclipse_ExternalTools_st-link_write_0" /></p>
-
-<p>Leave the remaining parameters as default.<br />
-Select “Run-&gt;Debug Configurations…”<br />
-Select “GDB Hardware Debugging”, select “New launch configuration”</p>
-
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_0.png" alt="pictures/Eclipse_DebugConfigurations_GDB_0" /></p>
-
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_1.png" alt="pictures/Eclipse_DebugConfigurations_GDB_1" /></p>
-
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_2.png" alt="pictures/Eclipse_DebugConfigurations_GDB_2" /></p>
-
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_3.png" alt="pictures/Eclipse_DebugConfigurations_GDB_3" /></p>
-
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_4.png" alt="pictures/Eclipse_DebugConfigurations_GDB_4" /></p>
-
-<h2 id="run-debugging-on-the-hardware">Run debugging on the hardware.</h2>
-
-<p>Select “Run-&gt;External Tools-&gt;openocd”.<br />
-Select “Run-&gt; Debug Configurations…-&gt; GDB Hardware Debugging”.<br />
-Select the previously created configuration.<br />
-Select “Debug”.</p>
-
-<p><img src="http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_Run_Debugging.png" alt="Eclipse_Run_Debugging" /></p>
-
+<p>Разработка ПО для микроконтроллера STM32F767ZI в рамках первого семестра школы разработчиков «Прософт-Системы», а так же ранее разработка ПО для микроконтроллеров STM32F407VG и STM32F103C8T6 в целях саморазвития в данной области. Использовались : FreeRTOS, ADC, DAC, TIM, DMA, ETH, LWIP, WWDG, NVIC, USART, внутреняя FLASH память микроконтроллера, GPIO.</p>
 
 		  <div id="disqus_thread"></div>
 	  </div>
@@ -280,8 +228,8 @@ Select “Debug”.</p>
 					,
 				</a></li>
 			 
-				<li><a href="/categories.html#STM32-ref">
-					STM32 <span>(1)</span>
+				<li><a href="/categories.html#Other-ref">
+					Other <span>(1)</span>
 					
 				</a></li>
 			
@@ -296,22 +244,8 @@ Select “Debug”.</p>
 		  
 			 
 				<li>
-					<a href="/tags.html#STM32-ref">
-					STM32 <span>(1)</span>
-					,
-					</a>
-				</li>
-			 
-				<li>
-					<a href="/tags.html#C-ref">
-					C <span>(1)</span>
-					,
-					</a>
-				</li>
-			 
-				<li>
-					<a href="/tags.html#Nucleo-ref">
-					Nucleo <span>(1)</span>
+					<a href="/tags.html#resume-ref">
+					resume <span>(1)</span>
 					
 					</a>
 				</li>
@@ -326,7 +260,7 @@ Select “Debug”.</p>
 		<div>
       <section class="share col-sm-6">
         <h4 class="section-title">Share Post</h4>
-        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=STM32 in Eclipse"
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Resume"
            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <i class="fa fa-twitter fa-lg"></i>
           Twitter
@@ -354,10 +288,10 @@ Select “Debug”.</p>
 
 		<ul class="pager">
 		  
-		  <li class="previous disabled"><a>&larr; Previous</a></li>
+		  <li class="previous"><a href="/general/stm32/2018/06/18/STM32-in-Eclipse.html" title="STM32 in Eclipse">&larr; Previous</a></li>
 		  
 		  
-		  <li class="next"><a href="/general/other/2018/08/08/Resume.html" title="Resume">Next &rarr;</a></li>
+			<li class="next disabled"><a>Next &rarr;</a>
 		  
 		</ul>
 

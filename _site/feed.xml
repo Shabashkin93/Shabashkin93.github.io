@@ -7,6 +7,70 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Resume</title>
+				<description>&lt;h2 id=&quot;общие-данные&quot;&gt;Общие данные:&lt;/h2&gt;
+&lt;p&gt;ФИО: Шабашкин Олег Андреевич.&lt;br /&gt;
+Прописка: Свердловская обл., г. Екатеринбург.&lt;br /&gt;
+E-mail: Parkour23@protonmail.com&lt;br /&gt;
+Github: https://github.com/Shabashkin93&lt;br /&gt;
+Tel: 89022536374.&lt;br /&gt;
+Дата рождения: 19 Сентября 1993 г.&lt;br /&gt;
+Гражданство: Гражданин Российской Федерации.&lt;br /&gt;
+Семейное положение: не женат.&lt;br /&gt;
+Специальность: радиотехника.&lt;br /&gt;
+По образованию : Бакалавр техники и технологии.&lt;br /&gt;
+Образование: Высшее.&lt;br /&gt;
+2010-2014 Уральский Технический Институт Связи и Информатики (филиал) Сибирский Государственный Университет Телекоммуникаций и Информатики&lt;br /&gt;
+Факультет телекоммуникации&lt;br /&gt;
+Специальность «Радиотехника»&lt;br /&gt;
+Квалификация: Бакалавр радиотехники и технологии.&lt;br /&gt;
+Проходил практику на производственном предприятии «Вектор»&lt;br /&gt;
+2000-2010 МОУСОШ №21 окончил 11 классов.&lt;/p&gt;
+
+&lt;h2 id=&quot;опыт-работы&quot;&gt;Опыт работы:&lt;/h2&gt;
+
+&lt;p&gt;1.07.2013-22.07.2013  «Вектор»&lt;br /&gt;
+Должность: регулировщик радиоэлектронной аппаратуры и приборов (ученик).&lt;br /&gt;
+Обязанности: регулировка радиоэлектронной аппаратуры и приборов.&lt;/p&gt;
+
+&lt;p&gt;февраль 2014 - август 2015: «Каскад СБ»&lt;br /&gt;
+Должность:  монтажник ОПС и СКУД.&lt;br /&gt;
+Обязанности: монтаж и пуско-наладка слаботочных систем.&lt;br /&gt;
+Опыт работы с системами «Орион», «Рубеж».&lt;/p&gt;
+
+&lt;p&gt;19.09.2015 — 31.01.2016 :  «ВИС Автоматика».&lt;br /&gt;
+Должность : монтажник ОПС и СКУД.&lt;br /&gt;
+Обязанности : монтаж и пуско-наладка слаботочных систем.&lt;/p&gt;
+
+&lt;p&gt;01.02.2016-29.12.2016: ООО «Миландр ЭК».&lt;br /&gt;
+Должность: Слесарь КИПиА.&lt;br /&gt;
+Обязанности: Калибровка и поверка приборов учёта электроэнергии.&lt;/p&gt;
+
+&lt;p&gt;30.12.2016-31.10.2017: АО «ПКК Миландр».&lt;br /&gt;
+Должность: Регулировщик РЭАиП.&lt;br /&gt;
+Обязанности: Ремонт приборов учёта электроэнергии, обновление софта на ПК сотрудников и приборах используемых на производстве, тестирование производственного ПО и обратная связь разработчикам.&lt;/p&gt;
+
+&lt;p&gt;01.11.2017 по настоящее время: АО «ПКК Миландр».&lt;br /&gt;
+Должность: Инженер-технолог.&lt;br /&gt;
+Обязанности: Ремонт приборов учёта электроэнергии, обновление софта на ПК сотрудников и приборах используемых на производстве, тестирование производственного ПО и обратная связь разработчикам, экспертиза приборов вышедших из строя, техобслуживание всех электроустановок и приборов используемых на производстве.&lt;/p&gt;
+&lt;h2 id=&quot;навыки&quot;&gt;Навыки&lt;/h2&gt;
+
+&lt;p&gt;Языки: Английский технический на начальном уровне, немецкий на уровне школьного курса.&lt;/p&gt;
+
+&lt;p&gt;Работал с программами помимо офисных: Autocad, Altium Designer, Electronic Workbench, MATLAB, MathCAD, Multisim, Proteus, STM32CubeMX, QT Creator. Языки программирования : C, C++, Python, поверхностно web.&lt;/p&gt;
+
+&lt;p&gt;Используемые OS : Linux, Windows.&lt;/p&gt;
+
+&lt;p&gt;Знаком с git, jira.&lt;/p&gt;
+
+&lt;p&gt;Разработка ПО для микроконтроллера STM32F767ZI в рамках первого семестра школы разработчиков «Прософт-Системы», а так же ранее разработка ПО для микроконтроллеров STM32F407VG и STM32F103C8T6 в целях саморазвития в данной области. Использовались : FreeRTOS, ADC, DAC, TIM, DMA, ETH, LWIP, WWDG, NVIC, USART, внутреняя FLASH память микроконтроллера, GPIO.&lt;/p&gt;
+</description>
+				<pubDate>Wed, 08 Aug 2018 00:00:00 +0500</pubDate>
+				<link>/general/other/2018/08/08/Resume.html</link>
+				<guid isPermaLink="true">/general/other/2018/08/08/Resume.html</guid>
+			</item>
+		
+			<item>
 				<title>STM32 in Eclipse</title>
 				<description>&lt;h2 id=&quot;install-the-required-software&quot;&gt;Install the required software.&lt;/h2&gt;
 
@@ -35,8 +99,8 @@
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/STM32CubeMX_Clock.png&quot; alt=&quot;STM32CubeMX_Clock&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Open “Project-&amp;gt;Project Settings”, or use hotkey “Alt+P”.
-Set “Project Name” and “Project Location, select “Makefile” as “Toolchain/IDE”.
+&lt;p&gt;Open “Project-&amp;gt;Project Settings”, or use hotkey “Alt+P”.&lt;br /&gt;
+Set “Project Name” and “Project Location, select “Makefile” as “Toolchain/IDE”.&lt;br /&gt;
 Press “OK”.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/STM32CubeMX_ProjectSetting.png&quot; alt=&quot;STM32CubeMX_STM32CubeMX_ProjectSetting&quot; /&gt;&lt;/p&gt;
@@ -49,9 +113,9 @@ Press “OK”.&lt;/p&gt;
 
 &lt;p&gt;Select “File/New/Makefile Project with Existing Code”.&lt;/p&gt;
 
-&lt;p&gt;Write “Project Name” and “Existing Code Location”.
-Languages “C”.
-Toolchain for indexer Settings “none”.
+&lt;p&gt;Write “Project Name” and “Existing Code Location”.&lt;br /&gt;
+Languages “C”.&lt;br /&gt;
+Toolchain for indexer Settings “none”.&lt;br /&gt;
 Press “Finish”.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_Create_Project.png&quot; alt=&quot;Eclipse_Create_Project&quot; /&gt;&lt;/p&gt;
@@ -65,9 +129,9 @@ Find and install “GNU MCU Eclipse”&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_Marketplace.png&quot; alt=&quot;Eclipse_Marketplace&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Select “Run-&amp;gt;External Tools-&amp;gt;External Tools Configuration…
-Select “New launch configuration”
-Create configuration for run openocd, “Openocd” is better to take with “github”
+&lt;p&gt;Select “Run-&amp;gt;External Tools-&amp;gt;External Tools Configuration…&lt;br /&gt;
+Select “New launch configuration”&lt;br /&gt;
+Create configuration for run openocd, “Openocd” is better to take with “github”&lt;br /&gt;
 For find locations use command “which”&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[oleg@oleg-pc ~]$ which openocd
@@ -88,13 +152,13 @@ For find locations use command “which”&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_st-link_erase_0.png&quot; alt=&quot;Eclipse_ExternalTools_st-link_erase_0&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Leave the remaining parameters as default.
+&lt;p&gt;Leave the remaining parameters as default.&lt;br /&gt;
 Create configuration for run “st-linkv2 write”&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_ExternalTools_st-link_write_0.png&quot; alt=&quot;Eclipse_ExternalTools_st-link_write_0&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Leave the remaining parameters as default.
-Select “Run-&amp;gt;Debug Configurations…”
+&lt;p&gt;Leave the remaining parameters as default.&lt;br /&gt;
+Select “Run-&amp;gt;Debug Configurations…”&lt;br /&gt;
 Select “GDB Hardware Debugging”, select “New launch configuration”&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_DebugConfigurations_GDB_0.png&quot; alt=&quot;pictures/Eclipse_DebugConfigurations_GDB_0&quot; /&gt;&lt;/p&gt;
@@ -109,9 +173,9 @@ Select “GDB Hardware Debugging”, select “New launch configuration”&lt;/p
 
 &lt;h2 id=&quot;run-debugging-on-the-hardware&quot;&gt;Run debugging on the hardware.&lt;/h2&gt;
 
-&lt;p&gt;Select “Run-&amp;gt;External Tools-&amp;gt;openocd”.
-Select “Run-&amp;gt; Debug Configurations…-&amp;gt; GDB Hardware Debugging”.
-Select the previously created configuration.
+&lt;p&gt;Select “Run-&amp;gt;External Tools-&amp;gt;openocd”.&lt;br /&gt;
+Select “Run-&amp;gt; Debug Configurations…-&amp;gt; GDB Hardware Debugging”.&lt;br /&gt;
+Select the previously created configuration.&lt;br /&gt;
 Select “Debug”.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/pictures/STM32-in-Eclipse/Eclipse_Run_Debugging.png&quot; alt=&quot;Eclipse_Run_Debugging&quot; /&gt;&lt;/p&gt;
