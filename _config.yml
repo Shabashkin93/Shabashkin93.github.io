@@ -6,7 +6,7 @@ exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
 disqus: shabashkinoleg 
-google_analytics: 
+google_analytics: UA-123580986-1
 title: Oleg Shabashkin
 
 defaults:
